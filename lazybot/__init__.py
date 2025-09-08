@@ -27,10 +27,11 @@ class LazyPrincessXBot(Client):
 
     def __init__(self):
         super().__init__(
-            name=SESSION,
-            api_id=API_ID,
-            api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
+            name=SESSION, "Cinefind69"
+            api_id=API_ID, "28388116"
+            api_hash=API_HASH, "
+aaa5ac9b92c9593e57c618b345dbeeb8"
+            bot_token=BOT_TOKEN, "8270532386:AAGXan5e05Lr6CRYRcBqnhFeA5HOUlsE8gI"
             workers=50,
             plugins={"root": "plugins"},
             sleep_threshold=5,
